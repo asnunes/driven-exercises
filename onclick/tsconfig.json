@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es2019",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "rootDirs": ["./.hub/tests"],
+    "baseUrl": "./.hub/tests"
+  },
+  "include": ["./.hub/tests"],
+  "exclude": []
+}

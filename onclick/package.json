@@ -1,0 +1,34 @@
+{
+  "name": "front-exercise-image",
+  "version": "1.0.0",
+  "description": "This repository is the template repository to be used as base on **front-end** exercises. Do not override this **package.json** or **package.lock.json** file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "PORT=3000 jest --passWithNoTests --noStackTrace --runInBand --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bootcamp-ra-exercises/front-exercise-image.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bootcamp-ra-exercises/front-exercise-image/issues"
+  },
+  "homepage": "https://github.com/bootcamp-ra-exercises/front-exercise-image#readme",
+  "dependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.6.1",
+    "@types/pixelmatch": "^5.2.3",
+    "@types/pngjs": "^6.0.0",
+    "@types/supertest": "^2.0.11",
+    "cheerio": "*",
+    "jest": "^27.0.3",
+    "pixelmatch": "^5.2.1",
+    "pngjs": "^4.0.1",
+    "puppeteer-core": "^10.0.0",
+    "ts-jest": "^27.0.2",
+    "typescript": "^4.3.2"
+  }
+}

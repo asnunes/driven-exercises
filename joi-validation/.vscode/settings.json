@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    ".gitignore": false,
+    "**/.hub": false,
+    "**/jest.config.js": false,
+    "**/tsconfig.json": false,
+    "**/.vscode": false
+  }
+}

@@ -1,0 +1,1 @@
+{"scripts":{"test":"docker-compose -f ./.hub/docker-compose.test.yml up --build","start":"docker-compose -f ./.hub/docker-compose.yml up","setup":"docker-compose -f ./.hub/docker-compose.yml build"},"slug":"joi-validation"}

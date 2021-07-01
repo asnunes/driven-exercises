@@ -1,1 +1,1 @@
-{"scripts":{"test":"docker-compose -f ./.hub/docker-compose.test.yml --env-file .env run app","start":"docker-compose -f ./.hub/docker-compose.yml --env-file .env up","setup":"docker-compose -f ./.hub/docker-compose.yml --env-file .env build"},"slug":"query-string"}
+{"scripts":{"test":"docker-compose -f ./.hub/docker-compose.test.yml --env-file ../.env run app","start":"docker-compose -f ./.hub/docker-compose.yml --env-file ../.env up","setup":"docker-compose -f ./.hub/docker-compose.yml --env-file ../.env build"},"slug":"query-string"}
